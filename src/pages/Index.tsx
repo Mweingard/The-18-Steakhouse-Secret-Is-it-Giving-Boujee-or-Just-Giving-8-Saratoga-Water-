@@ -15,7 +15,7 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       {/* ─── HERO ─── */}
       <ImmersivePhoto
-        src="/images/hero-entrance.jpg"
+        src="/images/o-6.jpg"
         alt="Steakhouse entrance on Figueroa Street, Downtown Los Angeles"
       >
         <motion.div
