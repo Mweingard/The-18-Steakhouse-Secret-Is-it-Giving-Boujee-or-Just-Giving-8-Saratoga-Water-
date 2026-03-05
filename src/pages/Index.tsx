@@ -13,7 +13,7 @@ const fadeUp = {
 const Index = () => {
   return (
     <main className="min-h-screen bg-background">
-      {/* ─── HERO ─── */}
+      
       <ImmersivePhoto
         src="/images/hero-entrance.jpg"
         alt="Steakhouse entrance on Figueroa Street, Downtown Los Angeles"
@@ -227,19 +227,6 @@ const Index = () => {
           I particularly enjoyed the Brazilian street corn, as the kernels were firmer than typical street corn and that added texture made the dish satisfying when chewing. Finally, the tri-bean salad was robust and citrusy, as it contained garbanzo beans, black beans, edamame, bell peppers, and cilantro, all topped with lime juice.
         </p>
       </motion.section>
-
-      /*{ ─── YOUR PHOTO SECTION ─── &rbrace;
-      <section className="blog-section">
-        <p className="font-display text-sm uppercase tracking-[0.25em] text-blog-gold text-center mb-6">
-          📸 More of Your Photos
-        </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <PhotoPlaceholder label="Photo 1" aspectRatio="square" />
-          <PhotoPlaceholder label="Photo 2" aspectRatio="square" />
-          <PhotoPlaceholder label="Photo 3" aspectRatio="square" />
-          <PhotoPlaceholder label="Photo 4" aspectRatio="square" />
-        </div>
-      </section>*/
 
       {/* ─── THE VERDICT ─── */}
       <motion.section className="blog-section" {...fadeUp}>
