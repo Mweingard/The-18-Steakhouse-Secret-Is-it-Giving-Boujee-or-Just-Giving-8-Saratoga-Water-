@@ -15,9 +15,9 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       {/* ─── HERO ─── */}
       <ImmersivePhoto
-        src="/images/o-6.jpg"
+        src="/images/hero-entrance.jpg"
         alt="Steakhouse entrance on Figueroa Street, Downtown Los Angeles"
-      
+      >
         <motion.div
           className="text-center max-w-2xl"
           initial={{ opacity: 0, y: 40 }}
@@ -36,8 +36,8 @@ const Index = () => {
         </motion.div>
       </ImmersivePhoto>
 
-      {/* ─── INTRO ─── */}
-      <motion.section className="blog-section" {...fadeUp}>
+     {/* ─── INTRO ─── */}
+     <motion.section className="blog-section" {...fadeUp}>
         <p className="font-body text-xs uppercase tracking-[0.25em] text-blog-gold mb-2">
           March 4, 2026 &nbsp;·&nbsp; Maia Weingard
         </p>
@@ -228,7 +228,7 @@ const Index = () => {
         </p>
       </motion.section>
 
-      /*{ ─── YOUR PHOTO SECTION ─── }
+      /*{ ─── YOUR PHOTO SECTION ─── &rbrace;
       <section className="blog-section">
         <p className="font-display text-sm uppercase tracking-[0.25em] text-blog-gold text-center mb-6">
           📸 More of Your Photos
