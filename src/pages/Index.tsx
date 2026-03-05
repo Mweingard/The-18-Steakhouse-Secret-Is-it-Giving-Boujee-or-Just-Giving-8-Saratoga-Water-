@@ -68,7 +68,14 @@ const Index = () => {
         </div>
 
         <p className="font-body text-lg leading-relaxed">
-          So, Lillian and I made our way over to the <em>Fogo de Chão - Downtown Los Angeles</em> to get our questions answered: Is this $18 buffet a boujee bargain, or a luxe letdown? And is it dietary-friendly and diverse?
+          So, Lillian and I made our way over to the
+          <a
+            href="https://fogodechao.com/location/los-angeles/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <em>Fogo de Chão – Downtown Los Angeles</em>
+          </a>{" "} to get our questions answered: Is this $18 buffet a boujee bargain, or a luxe letdown? And is it dietary-friendly and diverse?
         </p>
       </motion.section>
 
