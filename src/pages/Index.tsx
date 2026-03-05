@@ -15,7 +15,7 @@ const Index = () => {
     <main className="min-h-screen bg-background">
       
       <ImmersivePhoto
-        src="/images/hero-entrance.jpg"
+        src="/images/o-6.jpg"
         alt="Steakhouse entrance on Figueroa Street, Downtown Los Angeles"
       >
         <motion.div
@@ -36,7 +36,6 @@ const Index = () => {
         </motion.div>
       </ImmersivePhoto>
 
-     {/* ─── INTRO ─── */}
      <motion.section className="blog-section" {...fadeUp}>
         <p className="font-body text-xs uppercase tracking-[0.25em] text-blog-gold mb-2">
           March 4, 2026 &nbsp;·&nbsp; Maia Weingard
@@ -73,25 +72,12 @@ const Index = () => {
         </p>
       </motion.section>
 
-      {/* ─── PHOTO: Restaurant Interior ─── */}
       <ImmersivePhoto
         src="/images/o-8.jpg"
         alt="Elegant interior of Fogo de Chão Downtown Los Angeles"
         caption="The warm, well-lit interior of Fogo de Chão DTLA"
       />
 
-     {/* ─── YOUR PHOTOS: Arrival ─── */}
-      <section className="blog-section">
-        <p className="font-display text-sm uppercase tracking-[0.25em] text-blog-gold text-center mb-6">
-          📸 Upon Entering...
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <PhotoPlaceholder src="/images/o-10.jpg" alt="entrance-seating" aspectRatio="square" />
-          <PhotoPlaceholder src="/images/o-9.jpg" alt="table-seating" aspectRatio="square" />
-        </div>
-      </section>
-
-      {/* ─── THE AMBIANCE ─── */}
       <motion.section className="blog-section" {...fadeUp}>
         <h2 className="font-display text-2xl md:text-4xl font-bold text-foreground mb-8">
           Setting the Scene ✨
@@ -133,7 +119,7 @@ const Index = () => {
 
       {/* ─── PHOTO: Charcuterie ─── */}
       <ImmersivePhoto
-        src="/images/IMG_5217.jpg"
+        src="/images/IMG_5217.JPG"
         alt="Charcuterie board with prosciutto, cheeses, and arugula"
         caption="Plate one: the charcuterie spread that started it all"
       />
@@ -163,7 +149,7 @@ const Index = () => {
 
       {/* ─── PHOTO: Feijoada ─── */}
       <ImmersivePhoto
-        src="/images/IMG_5223.jpg"
+        src="/images/IMG_5223.JPG"
         alt="Brazilian feijoada with white rice and candied bacon"
         caption="The fogo feijoada — rich, warm, and unapologetically comforting"
       />
@@ -200,9 +186,9 @@ const Index = () => {
 
       {/* ─── PHOTO: Dessert / Final plate ─── */}
       <ImmersivePhoto
-        src="/images/IMG_5233.jpg"
+        src="/images/IMG_5233.JPG"
         alt="Brazilian potato salad, tri-bean salad, and quinoa tabouleh"
-        caption="The grand finale: pink pineapple, roasted apple, and all the sides"
+        caption="The grand finale: Brazilian potato salad, quinoa tabouleh, and all the sides"
       />
 
       {/* ─── PLATE THREE ─── */}
