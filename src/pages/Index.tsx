@@ -24,7 +24,7 @@ const Index = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <p className="font-body text-sm uppercase tracking-[0.3em] text-blog-gold mb-4">
+          <p className="font-body text-sm uppercase tracking-[0.3em] text-blog-wine mb-4">
             The Boujee College Foodie
           </p>
           <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-4">
