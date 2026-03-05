@@ -17,7 +17,7 @@ const Index = () => {
       <ImmersivePhoto
         src="/images/o-6.jpg"
         alt="Steakhouse entrance on Figueroa Street, Downtown Los Angeles"
-      >
+      
         <motion.div
           className="text-center max-w-2xl"
           initial={{ opacity: 0, y: 40 }}
@@ -75,19 +75,19 @@ const Index = () => {
 
       {/* ─── PHOTO: Restaurant Interior ─── */}
       <ImmersivePhoto
-        src="/images/restaurant-interior.jpg"
+        src="/images/o-8.jpg"
         alt="Elegant interior of Fogo de Chão Downtown Los Angeles"
-        caption="The warm, dimly-lit interior of Fogo de Chão DTLA"
+        caption="The warm, well-lit interior of Fogo de Chão DTLA"
       />
 
-      {/* ─── YOUR PHOTOS: Arrival ─── */}
+     {/* ─── YOUR PHOTOS: Arrival ─── */}
       <section className="blog-section">
         <p className="font-display text-sm uppercase tracking-[0.25em] text-blog-gold text-center mb-6">
-          📸 Your Photos
+          📸 Upon Entering...
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <PhotoPlaceholder label="Add your arrival photo here" aspectRatio="square" />
-          <PhotoPlaceholder label="Add your table / seating photo here" aspectRatio="square" />
+          <PhotoPlaceholder src="/images/o-10.jpg" alt="entrance-seating" aspectRatio="square" />
+          <PhotoPlaceholder src="/images/o-9.jpg" alt="table-seating" aspectRatio="square" />
         </div>
       </section>
 
@@ -112,6 +112,8 @@ const Index = () => {
         <p className="font-body text-lg leading-relaxed">
           Near the entrance was a small bar with a TV displaying sports and a separate booth that extended across the wall designed for wine tasting. While the space appeared huge, the arrangement of tables and chairs felt extremely confining, as despite only five or six groups dining at a time during our visit, the layout constricted everyone into one section of the restaurant.
         </p>
+
+
       </motion.section>
 
       {/* ─── COMPLIMENTARY BITES ─── */}
@@ -127,13 +129,11 @@ const Index = () => {
         <p className="font-body text-lg leading-relaxed mt-6">
           As we reviewed the menu with our order in mind, our waitress brought us complimentary <strong>pão de queijo</strong> (cheese bread), crispy <strong>polenta</strong>, and <strong>caramelized bananas</strong>. Free apps at a steakhouse? My inner broke-but-boujee college student approved immediately.
         </p>
-
-        <PhotoPlaceholder label="Add your cheese bread / polenta / banana photo here" aspectRatio="wide" />
       </motion.section>
 
       {/* ─── PHOTO: Charcuterie ─── */}
       <ImmersivePhoto
-        src="/images/charcuterie.jpg"
+        src="/images/IMG_5217.jpg"
         alt="Charcuterie board with prosciutto, cheeses, and arugula"
         caption="Plate one: the charcuterie spread that started it all"
       />
@@ -159,16 +159,11 @@ const Index = () => {
         <p className="font-body text-lg leading-relaxed mt-6">
           Finally, I ended this plate with the mozzarella caprese topped with lox, roasted garlic, and sweety drop peppers. My first bite excluded the lox, which was incredible as every component played a role in the flavor profile, making the dish feel abundantly light and refreshing; <em>it was giving main character energy</em>.
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-          <PhotoPlaceholder label="Your charcuterie plate photo" aspectRatio="square" />
-          <PhotoPlaceholder label="Your caprese / salad close-up" aspectRatio="square" />
-        </div>
       </motion.section>
 
       {/* ─── PHOTO: Feijoada ─── */}
       <ImmersivePhoto
-        src="/images/feijoada.jpg"
+        src="/images/IMG_5223.jpg"
         alt="Brazilian feijoada with white rice and candied bacon"
         caption="The fogo feijoada — rich, warm, and unapologetically comforting"
       />
@@ -184,7 +179,7 @@ const Index = () => {
         </p>
 
         <p className="font-body text-lg leading-relaxed mt-6">
-          We also discovered the hot station, where fogo feijoada was being served over white rice. The fogo feijoada was immensely rich and well-seasoned as its flavors soaked into the soft rice. However, the heat of this dish contradicted harshly with the chilled vegetables on our plates; <em>it was culinary whiplash</em>.
+          We also discovered the hot station, where fogo feijoada was being served over white rice.
         </p>
 
         <div className="bg-blog-blush rounded-xl p-6 my-8">
@@ -193,13 +188,20 @@ const Index = () => {
           </p>
         </div>
 
-        <PhotoPlaceholder label="Your plate two / veggies photo" aspectRatio="wide" />
+        <p className="font-body text-lg leading-relaxed mt-6">
+          Instead, we began with the beans over white rice, a dish that immediately offered warmth and comfort. The fogo feijoada was immensely rich and well-seasoned as its flavors soaked into the soft rice. However, the heat of this dish contradicted harshly with the chilled vegetables on our plates; <em>it was culinary whiplash</em>.
+        </p>
+
+        <p className="font-body text-lg leading-relaxed mt-6">
+            Many of them were ice cold, as we later realized that every platter at the buffet sat on a large bed of ice. This disrupted our palates, as the eggplant, cauliflower, mushrooms, and artichoke hearts tasted excessively herbed and felt unpleasantly mushy. While the cucumbers, bell peppers, pickled onions, and peppadew (another favorite) were unapologetically refreshing, the difference in temperature between the dishes gradually faded our enthusiasm to continue eating.
+        </p>
+
       </motion.section>
 
       {/* ─── PHOTO: Dessert / Final plate ─── */}
       <ImmersivePhoto
-        src="/images/dessert-plate.jpg"
-        alt="Pink pineapple, butternut squash, and quinoa tabouleh"
+        src="/images/IMG_5233.jpg"
+        alt="Brazilian potato salad, tri-bean salad, and quinoa tabouleh"
         caption="The grand finale: pink pineapple, roasted apple, and all the sides"
       />
 
@@ -224,15 +226,9 @@ const Index = () => {
         <p className="font-body text-lg leading-relaxed">
           I particularly enjoyed the Brazilian street corn, as the kernels were firmer than typical street corn and that added texture made the dish satisfying when chewing. Finally, the tri-bean salad was robust and citrusy, as it contained garbanzo beans, black beans, edamame, bell peppers, and cilantro, all topped with lime juice.
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
-          <PhotoPlaceholder label="Street corn close-up" aspectRatio="square" />
-          <PhotoPlaceholder label="Pink pineapple shot" aspectRatio="square" />
-          <PhotoPlaceholder label="Final plate spread" aspectRatio="square" />
-        </div>
       </motion.section>
 
-      {/* ─── YOUR PHOTO SECTION ─── */}
+      /*{ ─── YOUR PHOTO SECTION ─── }
       <section className="blog-section">
         <p className="font-display text-sm uppercase tracking-[0.25em] text-blog-gold text-center mb-6">
           📸 More of Your Photos
@@ -243,7 +239,7 @@ const Index = () => {
           <PhotoPlaceholder label="Photo 3" aspectRatio="square" />
           <PhotoPlaceholder label="Photo 4" aspectRatio="square" />
         </div>
-      </section>
+      </section>*/
 
       {/* ─── THE VERDICT ─── */}
       <motion.section className="blog-section" {...fadeUp}>
@@ -254,7 +250,15 @@ const Index = () => {
         </h2>
 
         <p className="font-body text-lg leading-relaxed">
-          Overall, our visit to Fogo de Chão consisted of elegance, variety, and thoughtful service, though not without minor drawbacks. One of the first things Lillian and I discerned was how frequently the waitress checked on us, as we counted almost ten times while we were still enjoying our first plate.
+          Overall, our trip to Fogo de Chão ate (literally). It gave elegance, variety, and thoughtful service, though with a couple minor L’s. 
+        </p>
+
+        <p className="font-body text-lg leading-relaxed mt-6">
+        One of the first things Lillian and I discerned was how frequently the waitress checked on us, as we counted almost ten times while we were still enjoying our first plate. This form of attentiveness began to feel targeted and slightly uncomfortable, adding to the tension I previously mentioned. 
+        </p>
+
+        <p className="font-body text-lg leading-relaxed mt-6">
+        The restaurant exemplifies a polished, luxury feel, yet the seating placement diminished that experience, as despite the spacious combination of the bar, booths, and tables, it felt crowded. Many guests were dressed in corporate clothing, likely on lunch breaks, which contributed to a businesslike tone of ambiance compared to other Fogo de Chão locations. (Honestly, Lillian and I might have been the only ones there calculating the cost). 
         </p>
 
         <p className="font-body text-lg leading-relaxed mt-6">
@@ -292,19 +296,6 @@ const Index = () => {
           </p>
         </div>
       </motion.section>
-
-      {/* ─── ESSAY PLACEHOLDER ─── */}
-      <section className="blog-section">
-        <div className="blog-divider" />
-        <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">
-          📝 Full Essay
-        </h2>
-        <div className="placeholder-zone min-h-[200px]">
-          <p className="font-body text-muted-foreground">
-            Paste your full essay text here — this section is reserved for the complete written piece.
-          </p>
-        </div>
-      </section>
 
       {/* ─── FOOTER ─── */}
       <footer className="py-16 text-center border-t border-border">
